@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SendActivity">
+
+    <EditText
+        android:id="@+id/sname"
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:hint="name"
+        android:inputType="text">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/scontent"
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        android:hint="content"
+        android:inputType="text">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/tv_send"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:text="Send"
+        android:textSize="60dp">
+
+    </Button>
+</LinearLayout>
